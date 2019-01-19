@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DescriptionViewController" customModule="INews" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uIm-fz-Rjc">
+                    <rect key="frame" x="0.0" y="20" width="375" height="200"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="LJV-G7-iU7">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terkuaknya Kasus Perburuan Rusa di Taman Nasional Komodo" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYm-io-h33">
+                            <rect key="frame" x="16" y="144" width="343" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="ILC-JO-FLU"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="yYm-io-h33" secondAttribute="trailing" constant="16" id="FMM-sW-PYY"/>
+                        <constraint firstAttribute="height" constant="200" id="Liw-bI-LWJ"/>
+                        <constraint firstAttribute="bottom" secondItem="yYm-io-h33" secondAttribute="bottom" constant="8" id="PLz-Cf-yXs"/>
+                        <constraint firstAttribute="bottom" secondItem="LJV-G7-iU7" secondAttribute="bottom" id="gUP-GS-Yr0"/>
+                        <constraint firstAttribute="trailing" secondItem="LJV-G7-iU7" secondAttribute="trailing" id="nsL-VE-3KD"/>
+                        <constraint firstItem="LJV-G7-iU7" firstAttribute="top" secondItem="uIm-fz-Rjc" secondAttribute="top" id="rTk-1y-LfW"/>
+                        <constraint firstItem="yYm-io-h33" firstAttribute="leading" secondItem="uIm-fz-Rjc" secondAttribute="leading" constant="16" id="wRm-gg-9CF"/>
+                        <constraint firstItem="LJV-G7-iU7" firstAttribute="leading" secondItem="uIm-fz-Rjc" secondAttribute="leading" id="zmq-Ha-CVg"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pqP-Mc-WPb">
+                    <rect key="frame" x="16" y="228" width="343" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="300" id="kZV-VB-HwX"/>
+                    </constraints>
+                    <string key="text">Kompas.com, Kupang - Usai terkuaknya kasus perburuan ratusan rusa di Pulau Komodo pada 29 Desember 2018 silam, Polres Manggarai Barat terus meningkatkan pengamanan di kawasan Taman Nasional Komodo (TNK). 
+
+"Pascakejadian beberapa waktu lalu, pasti kami akan tingkatkan pengamanan di wilayah perbatasan antara Manggarai Barat dan Bima NTB," kata Kapolres Manggarai Barat AKBP Julisa, seperti dikutip laman Antara, Kamis (3/1/2019).</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="pqP-Mc-WPb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="8K9-e2-hBo"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="uIm-fz-Rjc" secondAttribute="trailing" id="H0g-Fx-sNy"/>
+                <constraint firstItem="pqP-Mc-WPb" firstAttribute="top" secondItem="uIm-fz-Rjc" secondAttribute="bottom" constant="8" id="cBG-ww-33r"/>
+                <constraint firstItem="uIm-fz-Rjc" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="ciQ-CX-c1T"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pqP-Mc-WPb" secondAttribute="trailing" constant="16" id="lf5-vJ-t9a"/>
+                <constraint firstItem="uIm-fz-Rjc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="sva-80-k8t"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="download" width="296" height="170"/>
+    </resources>
+</document>

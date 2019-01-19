@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PaperCollectionViewCell" customModule="INews" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="404" height="244"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="404" height="244"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ID_KOMPAS2017MTH09DT24M_B" translatesAutoresizingMaskIntoConstraints="NO" id="Ca7-gh-cxI">
+                        <rect key="frame" x="0.0" y="0.0" width="404" height="244"/>
+                    </imageView>
+                    <view alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="puI-u9-rw6">
+                        <rect key="frame" x="0.0" y="200" width="404" height="44"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zJK-ZY-gZc">
+                                <rect key="frame" x="16" y="0.0" width="388" height="44"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edisi : 14 Februari 1993" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JI6-ev-lrp">
+                                        <rect key="frame" x="0.0" y="0.0" width="344" height="44"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVW-Hi-WvV">
+                                        <rect key="frame" x="344" y="0.0" width="44" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="44" id="nov-5A-ezI"/>
+                                        </constraints>
+                                        <state key="normal" image="cart"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="zJK-ZY-gZc" secondAttribute="bottom" id="FA6-ss-dAe"/>
+                            <constraint firstItem="zJK-ZY-gZc" firstAttribute="leading" secondItem="puI-u9-rw6" secondAttribute="leading" constant="16" id="SHR-KF-76g"/>
+                            <constraint firstAttribute="height" constant="44" id="Vou-Ee-Z5Q"/>
+                            <constraint firstItem="zJK-ZY-gZc" firstAttribute="top" secondItem="puI-u9-rw6" secondAttribute="top" id="fq9-Gk-Lip"/>
+                            <constraint firstAttribute="trailing" secondItem="zJK-ZY-gZc" secondAttribute="trailing" id="nCC-Y5-9nc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="puI-u9-rw6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ATs-Pt-Xiw"/>
+                <constraint firstItem="Ca7-gh-cxI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="IBP-Sm-QDz"/>
+                <constraint firstAttribute="bottom" secondItem="puI-u9-rw6" secondAttribute="bottom" id="Pae-hT-c2k"/>
+                <constraint firstAttribute="bottom" secondItem="Ca7-gh-cxI" secondAttribute="bottom" id="aGw-A1-V9x"/>
+                <constraint firstAttribute="trailing" secondItem="Ca7-gh-cxI" secondAttribute="trailing" id="bEH-cW-LFw"/>
+                <constraint firstItem="Ca7-gh-cxI" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="pQT-3D-zwD"/>
+                <constraint firstAttribute="trailing" secondItem="puI-u9-rw6" secondAttribute="trailing" id="xBb-ly-O2d"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="404" height="244"/>
+            <point key="canvasLocation" x="117" y="149"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ID_KOMPAS2017MTH09DT24M_B" width="760" height="1212"/>
+        <image name="cart" width="29" height="24"/>
+    </resources>
+</document>
