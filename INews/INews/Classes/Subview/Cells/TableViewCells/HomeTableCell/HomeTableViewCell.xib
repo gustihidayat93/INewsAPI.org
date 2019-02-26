@@ -28,6 +28,11 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="tu6-5b-nt3"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="h4j-34-0r0">
                                 <rect key="frame" x="0.0" y="208" width="428" height="121.5"/>

@@ -37,6 +37,7 @@
 		5B9E269C21F2140200FA78FD /* DescriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B9E269A21F2140200FA78FD /* DescriptionViewController.xib */; };
 		5B9E26A021F2C74800FA78FD /* PaperCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9E269E21F2C74800FA78FD /* PaperCollectionViewCell.swift */; };
 		5B9E26A121F2C74800FA78FD /* PaperCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B9E269F21F2C74800FA78FD /* PaperCollectionViewCell.xib */; };
+		5BB5B8B6220EB79C004CDC07 /* menuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB5B8B5220EB79C004CDC07 /* menuBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		5B9E269A21F2140200FA78FD /* DescriptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescriptionViewController.xib; sourceTree = "<group>"; };
 		5B9E269E21F2C74800FA78FD /* PaperCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperCollectionViewCell.swift; sourceTree = "<group>"; };
 		5B9E269F21F2C74800FA78FD /* PaperCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaperCollectionViewCell.xib; sourceTree = "<group>"; };
+		5BB5B8B5220EB79C004CDC07 /* menuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuBar.swift; sourceTree = "<group>"; };
 		DD3D84CC8B56CC83B39A780B /* Pods_INews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_INews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -241,6 +243,7 @@
 		5B9E264B21EF6A8000FA78FD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5BB5B8B4220EB745004CDC07 /* MenuBar */,
 				5B3DD15921F4DE92000E0F28 /* Everything */,
 				5B3DD15721F4C3BE000E0F28 /* SideHeaderView */,
 			);
@@ -302,6 +305,14 @@
 				5B9E269F21F2C74800FA78FD /* PaperCollectionViewCell.xib */,
 			);
 			path = PaperCollectionCell;
+			sourceTree = "<group>";
+		};
+		5BB5B8B4220EB745004CDC07 /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				5BB5B8B5220EB79C004CDC07 /* menuBar.swift */,
+			);
+			path = MenuBar;
 			sourceTree = "<group>";
 		};
 		7A99767BC99E2737A7F3DDAF /* Pods */ = {
@@ -450,6 +461,7 @@
 				5B3DD15F21F4DE92000E0F28 /* Articles.swift in Sources */,
 				5B9E264F21EF722B00FA78FD /* MainViewController.swift in Sources */,
 				5B9E262F21EF647200FA78FD /* ViewController.swift in Sources */,
+				5BB5B8B6220EB79C004CDC07 /* menuBar.swift in Sources */,
 				5B9E265521EF75C200FA78FD /* PaperViewController.swift in Sources */,
 				5B3DD15521F4603C000E0F28 /* StoryViewController.swift in Sources */,
 				5B9E262D21EF647200FA78FD /* AppDelegate.swift in Sources */,

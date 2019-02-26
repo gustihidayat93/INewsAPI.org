@@ -71,7 +71,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="343" height="1000"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="suagdjywydgbhbjadwjhwwdjbkbdbdnsfbdbfweiufwuifiweecbdibdbefefebfbfefbeffffewfuweufiefweufbwufbefiwebfbefbwfeufb" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zSR-e5-rcy">
-                                            <rect key="frame" x="0.0" y="0.0" width="343" height="47"/>
+                                            <rect key="frame" x="16" y="0.0" width="311" height="47"/>
                                             <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="14"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -79,11 +79,11 @@
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
-                                        <constraint firstItem="zSR-e5-rcy" firstAttribute="leading" secondItem="q3R-1q-kuh" secondAttribute="leading" id="9nn-7t-j3M"/>
+                                        <constraint firstItem="zSR-e5-rcy" firstAttribute="leading" secondItem="q3R-1q-kuh" secondAttribute="leading" constant="16" id="9nn-7t-j3M"/>
                                         <constraint firstAttribute="height" constant="1000" id="SJR-oH-wDo"/>
                                         <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="zSR-e5-rcy" secondAttribute="bottom" id="Uzc-7u-GZT"/>
                                         <constraint firstItem="zSR-e5-rcy" firstAttribute="top" secondItem="q3R-1q-kuh" secondAttribute="top" id="bt8-jM-ef9"/>
-                                        <constraint firstAttribute="trailing" secondItem="zSR-e5-rcy" secondAttribute="trailing" id="xk7-ij-sWX"/>
+                                        <constraint firstAttribute="trailing" secondItem="zSR-e5-rcy" secondAttribute="trailing" constant="16" id="xk7-ij-sWX"/>
                                     </constraints>
                                 </view>
                             </subviews>

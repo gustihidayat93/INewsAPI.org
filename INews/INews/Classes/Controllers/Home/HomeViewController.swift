@@ -23,8 +23,20 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         setAlamofire()
         setupnavigationComponent()
         setupComponent()
+        setupMenuBar()
     }
+    let menuBar: MenuBar = {
+        let mb = MenuBar()
+     return mb
     
+    }()
+        
+        
+        private func  setupMenuBar() {
+          view.addSubview(menuBar)
+          view.addConstraint("<#T##constraint: NSLayoutConstraint##NSLayoutConstraint#>")
+        }
+ 
     func setAlamofire() {
         let params: [String: Any] = [
             "q": "bitcoin",

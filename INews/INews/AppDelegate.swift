@@ -19,6 +19,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         window?.rootViewController = MainViewController()
+       
+        let statusBarBackgroundView = UIView()
+        statusBarBackgroundView.backgroundColor = UIColor.init(red: 194, green: 31, blue: 31, alpha: 1)
+        window?.addSubview(statusBarBackgroundView)
+        window.add
+        
+        
+        
+        
+        
         return true
     }
 
